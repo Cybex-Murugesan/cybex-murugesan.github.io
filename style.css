@@ -36,8 +36,8 @@ a { color: inherit; text-decoration: none; }
 .status-dot, .coming-soon i { width: 7px; height: 7px; display: inline-block; background: #777B9E; border-radius: 50%; box-shadow: 0 0 0 4px rgba(119,123,158,.13); }
 .eyebrow-index { margin-left: 8px; opacity: .6; }
 h1, h2, h3, p { margin-top: 0; }
-h1 { font-size: clamp(44px, 5.2vw, 72px); line-height: 1.0; letter-spacing: -.075em; font-weight: 800; margin-bottom: 25px; font-family: var(--sans); font-style: normal; color: var(--indigo); }
-h1 em { font-family: var(--serif-display); font-weight: 700; font-style: italic; letter-spacing: -.06em; color: var(--indigo); font-size: .97em; }
+h1 { font-size: clamp(28px, 3.2vw, 46px); line-height: 1.0; letter-spacing: .18em; font-weight: 800; margin-bottom: 25px; font-family: var(--sans); font-style: normal; color: var(--indigo); text-transform: uppercase; }
+h1 em { font-family: var(--serif-display); font-weight: 700; font-style: italic; letter-spacing: -.055em; color: var(--indigo); font-size: 2.05em; line-height: .95; text-transform: none; display: block; margin-top: 6px; }
 h2 em { font-family: var(--serif); font-weight: 400; letter-spacing: -.065em; }
 .hero-role { font-size: 13px; font-weight: 800; margin-bottom: 18px; }
 .role-divider { margin: 0 8px; color: #9291A5; font-weight: 400; }
@@ -51,7 +51,7 @@ h2 em { font-family: var(--serif); font-weight: 400; letter-spacing: -.065em; }
 .text-link span { margin-left: 5px; }
 .hero-footnote { display: flex; gap: 15px; align-items: center; border-top: 1px solid var(--line); margin-top: 63px; padding-top: 17px; font-size: 10px; color: #7B7C90; }
 .hero-footnote .mono { color: var(--indigo); font-size: 8px; }
-.portrait-column { position: relative; width: min(100%, 390px); justify-self: end; padding: 0 14px 30px 0; }
+.portrait-column { position: relative; width: min(100%, 390px); justify-self: end; padding: 0 14px 75px 0; }
 .portrait-frame { padding: 13px; border: 1px solid rgba(40,43,74,.22); position: relative; }
 .portrait-topline, .portrait-caption { display: flex; justify-content: space-between; gap: 10px; font-family: var(--mono); font-size: 8px; letter-spacing: .07em; }
 .portrait-topline { padding: 2px 2px 12px; color: #77778B; }
@@ -62,8 +62,8 @@ h2 em { font-family: var(--serif); font-weight: 400; letter-spacing: -.065em; }
 .portrait-stamp span { font-family: var(--serif); font-size: 24px; font-style: italic; }
 .portrait-stamp small { font-family: var(--mono); font-size: 7px; line-height: 1.5; letter-spacing: .08em; }
 .portrait-caption { padding: 13px 2px 2px; align-items: center; color: #77778B; }
-.portrait-caption span:first-child { font-family: var(--sans); color: var(--indigo); font-size: 9px; font-weight: 800; letter-spacing: 0; }
-.floating-note { position: absolute; bottom: 0; left: -35px; background: var(--indigo); color: var(--vanilla); padding: 14px 17px; display: flex; gap: 11px; align-items: center; font-size: 10px; line-height: 1.6; box-shadow: 0 12px 30px #282b4a20; }
+.portrait-caption span:first-child { font-family: var(--sans); color: var(--indigo); font-size: 12px; font-weight: 800; letter-spacing: 0; }
+.floating-note { position: absolute; bottom: -58px; left: 0; background: var(--indigo); color: var(--vanilla); padding: 14px 17px; display: flex; gap: 11px; align-items: center; font-size: 10px; line-height: 1.6; box-shadow: 0 12px 30px #282b4a20; }
 .note-star { font-size: 21px; color: #D5D0B8; }
 .hero-number { position: absolute; bottom: 31px; right: 0; color: #9998A8; font-size: 9px; }
 .section-label { display: flex; align-items: center; gap: 15px; color: #77778B; font-size: 9px; letter-spacing: .07em; }
@@ -207,7 +207,7 @@ h2 em { font-family: var(--serif); font-weight: 400; letter-spacing: -.065em; }
   .hero-footnote { margin-top: 38px; }
   .portrait-column { width: min(100%, 370px); justify-self: center; margin-left: 15px; }
   .portrait-image-wrap { height: 420px; }
-  .floating-note { left: -15px; }
+  .floating-note { left: 0; bottom: -58px; }
   .hero-number { bottom: 20px; }
   .about-section { padding-top: 45px; padding-bottom: 80px; }
   .section-label { gap: 9px; font-size: 7px; }
